@@ -1,0 +1,26 @@
+# C++ Build
+build/
+cmake-build-*/
+.cache/
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+python/venv/
+.venv/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Rerun
+data.rrd
