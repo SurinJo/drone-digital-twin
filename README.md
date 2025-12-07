@@ -5,6 +5,10 @@ Experimental High-Performance Digital Twin framework demonstrating **Hybrid Engi
 ![Architecture](https://img.shields.io/badge/Architecture-C%2B%2B17%20%7C%20ZeroMQ%20%7C%20Python-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
+## 🎥 Demo
+![Drone Digital Twin Demo](assets/demo.mp4)
+*Real-time Rerun visualization of the C++ physics engine avoiding obstacles.*
+
 ## 🚀 Overview
 
 This project simulates a quadcopter drone in a physics environment entirely in **C++17** for performance, while Offloading the "Intelligence" and "Visualization" to **Python** via **ZeroMQ**.
@@ -77,6 +81,16 @@ Open two terminal tabs:
 ```bash
 python3 python/scripts/vis_twin.py
 ```
+
+## 🎮 Controls (Manual Mode)
+
+Focus on the terminal window running `vis_twin.py` to control the drone.
+
+- **`M`**: Toggle Auto / Manual Mode
+- **`W` / `S`**: Move Forward / Backward
+- **`A` / `D`**: Move Left / Right
+- **`Space`**: Thrust Up (Lift)
+- **`Shift`+`Z`** (or just gravity): Drop
 
 ## 🧠 Customizing the "Brain"
 You can modify the autonomous logic in `python/scripts/vis_twin.py`.
